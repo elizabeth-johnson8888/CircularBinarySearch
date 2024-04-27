@@ -1,2 +1,2 @@
 # CircularBinarySearch
-Lab for Adnvaced Algorithms class
+Lab for Advanced Algorithms class
