@@ -23,9 +23,9 @@ def recursive_search(arr, lowIndex, highIndex, value):
         else:  # search left
             return recursive_search(arr, lowIndex, mid - 1, value)
     else:  # left half is sorted
-        if (arr[lowIndex] <= value < arr[mid]):  # search right half
+        if (arr[lowIndex] <= value < arr[mid]): # search left
             return recursive_search(arr, lowIndex, mid - 1, value)
-        else:
+        else: # search right
             return recursive_search(arr, mid + 1, highIndex, value)
 
 
